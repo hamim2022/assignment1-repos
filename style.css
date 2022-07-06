@@ -71,7 +71,7 @@ h1{
     padding: 5px;
     border-radius: 3px;
     border-color: brown;
-    border: ;
+    border-style: solid;
     
     
 
@@ -79,10 +79,11 @@ h1{
 .input-box
 {
     border: 0;
-    background-color: rosybrown;
+    background-color: rgb(243, 227, 227);
   height: 50px;
     width: 50%;
     border-radius: 10px;
+    border-style: solid;
 }
 .button-2
 {
@@ -127,7 +128,7 @@ h1{
 .food-ph{
     
     text-align: center;
-   align-items: inl;
+   
 }
 
 
@@ -156,5 +157,65 @@ h1{
 
 
 
+.donate-button1{
+    margin-left:30px;
+    text-align: center;
+    text-decoration: none;
+    background-image: -moz-linear-gradient(orange,orangered);
+    background-color:orange;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 7px;
+}
+
+
+
+.donate-section{
+   text-align: left; 
+   display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding: 10px;
+    margin-left: 18%;
+}
+
+.half-width-img{
+    width: 60%;
+    padding: 10px;
+    margin-right: 15%;
+}
+
+.update-section
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.subscribe{
+    background-color: rgb(153, 136, 136);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    height: 80px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: black;
+  color: rgb(255, 254, 254);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 20px;
+  margin: 0%;
+  
+}
+
+.all-p-color{
+    color: rgb(119, 111, 111);
+}
 
 
